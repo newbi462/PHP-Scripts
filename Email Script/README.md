@@ -21,7 +21,7 @@ The first step in any programming is to think out the logic. I have the best hea
 
 We will do this with a form. This how you get almost anything when it comes to the web. The simple way to do this is with a HTML and PHP form. But that is not as ideal these days as it was. It comes down to what stack you are dealing with. For this reason I will also cover how to get React to talk to our PHP. The logic of those 2 ways is just different enough that it gives you a good foundation for this PHP.
 
-You can find the full source for the PHP form in ```form.php```. I am going to limit to the ```<form></form>``` its self here.
+You can find the full source for the PHP form in ```form.html```. I am going to limit to the ```<form></form>``` its self here.
 
 
 
