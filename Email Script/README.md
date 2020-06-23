@@ -6,7 +6,7 @@ This will be a simple PHP script to send an email based on a POST from a form. W
 
 Between these 2 front ends the slight differences in handling POST input should be made clear to help better understand the basic PHP logic needed when dealing with email and serve to create a start scrip most can use to add this to any site they work on.
 
-## Step 1 | What do we need to do?
+## Step 0 | What do we need to do?
 The first step in any programming is to think out the logic. I have the best heard this explained with the truism of 2 weeks of coding can save you 20 min of planing. So keeping this in mind, what does out code need to do?
 
 ```
@@ -17,7 +17,7 @@ The first step in any programming is to think out the logic. I have the best hea
 5) we need to send that email where it should go
 ```
 
-## Step 2 | Code "1) We need to get the info we will email"
+## Step 1 | Code "1) We need to get the info we will email"
 
 We will do this with a form. This how you get almost anything when it comes to the web. The simple way to do this is with an HTML form. But that is not as ideal these days as it was. It comes down to what stack you are dealing with. For this reason, I will also cover how to get React and other JS to talk to our PHP. The logic of those 2 ways is just different enough that it gives you a good foundation for this PHP. In particular how to handle the shape of the incoming data.
 
@@ -59,7 +59,10 @@ placeholder="What will be in the box"
 The ```placeholder```  is being used in place of a ```label```, while you do not strictly need a placeholder value, it has become more common to pre-fill in forms with these values that tell the user what should go there. Overall it just creates a more clean UI/UX. Like with ```name``` in our ```form.html``` this line is ```placeholder="Name"``` and it is common practice to have the placeholder, name, and so on all match.
 
 
+## STEP 2 | CODE "2) we need to send that info somewhere we can do something with it"
+Congratulations, this is already done for the HTML form.
 
+Remember ```<form method="post" action="PHPScript.php">``` posts/send the info to the ```PHPScript.php``` when you click Submit.
 
 
 
