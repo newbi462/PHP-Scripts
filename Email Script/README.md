@@ -43,6 +43,16 @@ We are using ```method="post"``` to send the data in this form to the ```action=
 #### Understanding our <input />
 The 3 values here are the minim to have a usable form. So let us take a sec to understand them.
 
+```
+type="text"
+```
+This is just like it sounds, what the type of this form filed or```input``` is. As is always a good practice if you are unsure what ```type``` you need to use you can check the [documentation] (https://www.w3schools.com/html/html_form_input_types.asp).
+
+```
+name="name_value"
+```
+This one is strait forward but I will point out a foobar no-foobar I see some more new or Jr Dev strugle with. In our sample code ```form.html``` this line is ```name="name"```......
+
 
 
 
