@@ -51,7 +51,18 @@ This is just like it sounds, what the type of this form filed or```input``` is. 
 ```
 name="name_value"
 ```
-This one is strait forward but I will point out a foobar no-foobar I see some more new or Jr Dev strugle with. In our sample code ```form.html``` this line is ```name="name"```......
+This one is straight forward but I will point out a foobar no-foobar I see some who are newer or Jr Dev struggle with. In our sample code ```form.html``` this line is ```name="name"```. The left side ```name=``` is a reserved value and how you tell the form input what its unique identifier is, while the right side ```="name"``` or ```="name_value"``` or ```="fooBar"``` is defined by you. This right-side value is how you tell other code what value to work with and do things with. If you want to understand this concept more lookup ```parameters``` and ```variables``` as they pertain to code.
+
+```
+placeholder="What will be in the box"
+```
+The ```placeholder```  is being used in place of a ```label```, while you do not strictly need a placeholder value, it has become more common to pre-fill in forms with these values that tell the user what should go there. Overall it just creates a more clean UI/UX. Like with ```name``` in our ```form.html``` this line is ```placeholder="Name"``` and it is common practice to have the placeholder, name, and so on all match.
+
+
+
+
+
+
 
 
 
