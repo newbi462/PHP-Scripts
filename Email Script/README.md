@@ -40,7 +40,7 @@ As stated from the Front-End side this is collecting the ```input``` to ```POST`
 #### Understand CRUD
 We are using ```method="post"``` to send the data in this form to the ```action="PHPScript.php"``` in this case it would be the ```C``` or ```Create``` of CRUD. While beyond the scope of this tutorial you may want to take the time to look up what CRUD is and understand why and when you would use GET, POST, PUT, and DEL.
 
-#### Understanding our <input />
+#### Understanding our ```<input />```
 The 3 values here are the minim to have a usable form. So let us take a sec to understand them.
 
 ```
