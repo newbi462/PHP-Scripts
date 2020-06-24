@@ -65,6 +65,13 @@ Congratulations, this is already done for the HTML form.
 Remember ```<form method="post" action="PHPScript.php">``` posts/send the info to the ```PHPScript.php``` when you click Submit.
 
 
+## STEP 3 | CODE "3) we need to take that info and make sure it is in a format we need to do something with"
+
+
+## STEP 4 | CODE "4) we need to assemble that info into an email"
+
+
+## STEP 5 | CODE "5) we need to send that email where it should go"
 
 
 
