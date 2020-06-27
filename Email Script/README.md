@@ -66,6 +66,15 @@ Remember ```<form method="post" action="PHPScript.php">``` posts/send the info t
 
 
 ## STEP 3 | CODE "3) we need to take that info and make sure it is in a format we need to do something with"
+This step can be broken into many steps, and some of the code we will do here is overall not needed, but a best practice. This is also the step where the 2 inputs (HTML and JS/React) we are doing will be most different.
+
+At this point we have POSTed the data, so the PHP file has it, but it has not officially put the data from the form anywhere. So some sub-steps are:
+```
+3a) verify the data was POSTed
+3b) set that data to something we can use in our PHP
+3c) move on t0 the next step...
+```
+
 
 
 ## STEP 4 | CODE "4) we need to assemble that info into an email"
